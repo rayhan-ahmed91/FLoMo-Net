@@ -1,6 +1,9 @@
 # FLoMo-Net
 Official Implementation of FLoMo-Net (WACV 2026)
 
+<img width="4904" height="5856" alt="FLoMo-Net" src="https://github.com/user-attachments/assets/057720e4-b98d-4cd1-80d2-3c2635e428f7" />
+
+
 FLoMo-Net: A Novel Task-Adaptive Mixture of Experts Routing Framework with Frequency and Uncertainty Correction for Medical Image Segmentation
 
 Authors: Md Rayhan Ahmed, Patricia Lasserre
@@ -38,6 +41,12 @@ Each stage includes:
 - DASA applied at stages 3 and 4 for frequency–spatial refinement
 - Outputs from the encoder are: E1, E2, E3, E4.
 
+<img width="7272" height="4041" alt="LoGo-MoE" src="https://github.com/user-attachments/assets/47e3ad7d-690c-4670-85c6-80dc60ae9450" />
+
+  
+<img width="7008" height="2424" alt="DASA" src="https://github.com/user-attachments/assets/bf1d1623-4535-4286-b1ad-99754d16fc19" />
+
+
  3.2 Bridge (FAMSR)
 The bottleneck (bridge) enhances the representational quality of the encoded features.
 It combines:
@@ -47,6 +56,10 @@ It combines:
 - Spatial gating via joint GAP and GMP descriptors
 
 This produces frequency-augmented bridge features B. 
+
+
+<img width="9308" height="5117" alt="FAMSR" src="https://github.com/user-attachments/assets/d0cb9648-998d-46ff-89d6-03f64caa2fef" />
+
 
 3.3 Decoder
 Each decoder stage performs the following operation:
@@ -69,6 +82,9 @@ Given an encoder–decoder feature pair (E, D), FPFN-CAM:
 - Refines the decoder output to reduce FP/FN errors
 
 This module is essential for consistent boundary localization and restoration of subtle structures.
+
+<img width="5100" height="4266" alt="FPFN-CAM" src="https://github.com/user-attachments/assets/28a5e69d-3e17-4c73-a223-4b4d376e7977" />
+
 
 ## 4. Dataset Preparation
 
