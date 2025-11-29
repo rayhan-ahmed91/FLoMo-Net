@@ -2,6 +2,7 @@
 Official Implementation of FLoMo-Net (WACV 2026)
 
 FLoMo-Net: A Novel Task-Adaptive Mixture of Experts Routing Framework with Frequency and Uncertainty Correction for Medical Image Segmentation
+
 Authors: Md Rayhan Ahmed, Patricia Lasserre
 
 ## 1. Overview
