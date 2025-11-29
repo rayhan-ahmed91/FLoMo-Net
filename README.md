@@ -142,6 +142,9 @@ FLoMo-Net produces:
 - Reduced false positives
 - Cleaner segmentation masks
 
+<img width="2122" height="1384" alt="output6" src="https://github.com/user-attachments/assets/0478d453-8469-4c16-9028-17a97b7f6b9e" />
+
+
 If you use FLoMo-Net in your research, please cite:
 
 @inproceedings{Ahmed2026FLoMoNet,
